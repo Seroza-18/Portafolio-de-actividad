@@ -51,7 +51,7 @@
                     <!-- Post header-->
                     <header class="mb-4">
                         <!-- Post title-->
-                        <h1 class="fw-bolder mb-1">Práctica APP Bluetooth</h1>
+                        <h1 class="fw-bolder mb-1">Práctica Carro Bluetooth</h1>
 
                         <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
                             <img class="img-fluid rounded-circle" width="50px" src="assets/MS.jpeg" alt="..." />
@@ -61,7 +61,7 @@
                             </div>
                         <!--Aqui termina etiqueta de alumno-->
 
-                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Octubre 17, 2024</div>
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Noviembre 26, 2024</div>
                         <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
                         <a href="#!"><div class="badge bg-primary bg-gradient rounded-pill mb-2">Arduino</div></a>
                                     <a href="#!"><div class="badge bg-primary bg-gradient rounded-pill mb-2">Progrmacion</div></a>
@@ -80,44 +80,69 @@
                                 
                     <p id="resumen">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
-                        <p class="fs-6 mb-4"> En esta práctica tuvimos que controlar nuestro brazo robot a través de bluetooth con nuestros celulares.</p>                        
+                        <p class="fs-6 mb-4"> Para esta práctica había que controlar un carro a través de bluetooth con la aplicación de APP inventor desde nuestros
+                            dispositivos móviles.</p>                        
                         <p id="intro">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
-                        <p class="fs-6 mb-4">Esta práctica se enfoca en controlar dispositivos utilizando tecnología Bluetooth, con Arduino como la plataforma principal.</p>
-                        <p class="fs-6 mb-4">El objetivo de esta actividad es desarrollar tanto habilidades técnicas en la programación y configuración de estos dispositivos como entender las numerosas aplicaciones que pueden lograrse al combinar la potencia de Arduino con la flexibilidad de la conectividad Bluetooth.</p>
+                        <p class="fs-6 mb-4">Esta práctica se enfoca en controlar dispositivos utilizando tecnología Bluetooth, con Arduino y MIT App inventor como las plataformas principales.</p>
+                        <p class="fs-6 mb-4">El objetivo de esta actividad es desarrollar tanto habilidades técnicas en la programación y configuración de estos dispositivos como entender las numerosas aplicaciones que pueden lograrse al combinar la potencia de Arduino con la flexibilidad de la conectividad Bluetooth.
+                            Así mismo, razonamos los funcionamientos y conexiones que tiene el bluetooth.</p>
                         <p id="materiales">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
-                        <p class="fs-6 mb-4"> -Arduino</p>
-                        <p class="fs-6 mb-4"> -Receptor bluteooth</p>
-                        <p class="fs-6 mb-4"> -Monitor Bluethoot</p>
-                        <p class="fs-6 mb-4"> -App Inventor</p>
-                        <p class="fs-6 mb-4"> -Brazo robot</p>
+                        <p class="fs-6 mb-4"> -Arduino UNO</p>
+                        <p class="fs-6 mb-4"> -Modulo bluteooth HC-05</p>
+                        <p class="fs-6 mb-4"> -Protoboard</p>
+                        <p class="fs-6 mb-4"> -Pilas</p>
+                        <p class="fs-6 mb-4"> -Cables macho-macho y hembra-macho</p>
+                        <p class="fs-6 mb-4"> -Puente H L298N</p>
+                        <p class="fs-6 mb-4"> -Motores reductores</p>
+                        <p class="fs-6 mb-4"> -Llantas para los motores reductores</p>
+                        <p class="fs-6 mb-4"> -Rueda loca</p>
+                        <p class="fs-6 mb-4"> -Servomotor</p>
+                        <p class="fs-6 mb-4"> -App inventor</p>
+                        <p class="fs-6 mb-4"> -Corte DXF</p>
+                        <p class="fs-6 mb-4"> -Impresión 3D</p>
                         
                         <p id="desarrollo">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
-                        <p class="fs-6 mb-4">El desarrollo del sistema utilizando MIT App Inventor y Arduino fue un proceso organizado que incluyó diseño, programación y pruebas prácticas. Al combinar estos elementos, se logró crear una solución eficiente para controlar dispositivos de forma remota. Este proyecto muestra lo útil y flexible que puede ser el uso de Bluetooth en aplicaciones de automatización.</p>
+                        <p class="fs-6 mb-4">Para poder lograr el desarrollo de esta práctca correctamente primero tuvimos que hacer el diseño visual en App inventor para después 
+                            pasar a los bloques que harán funcionar el sistema dentro de esta misma plataforma.</p>
+                        <p class="fs-6 mb-4"> Después habría que conectar todos los componentes del proyecto entre sí
+                                como lo son la protoboard, el arduino, el puente H, etc. Posteriormente se realizó el código que fue el último detalle para que el carro pudiera funcionar 
+                                de manera eficiente y como lo deseábamos. </p>
                         
                     
                             
                     
                             <p id="diseño">
-                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño</h1>
-                            <p class="fs-6 mb-4">La práctica fue diseñada empleando la plataforma MIT App Inventor, una herramienta intuitiva que facilita el desarrollo de aplicaciones móviles de manera simple y accesible. A través de esta plataforma, se creó una aplicación específica para controlar dispositivos conectados al Arduino mediante Bluetooth.</p>
-                            <p class="fs-6 mb-4">Primero se diseñó la interfaz de la aplicación, eligiendo elementos visuales como botones y deslizadores para facilitar la interacción del usuario. Luego, se construyó un código utilizando el sistema de bloques de MIT App Inventor, lo cual permitió establecer la lógica de funcionamiento de la aplicación.</p>
-
-                            <figure class="mb-4"><img class="img-fluid rounded" width="500px" src="img/arduino bluetooth.jpg" alt="..." /></figure>
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">- Diseño -</h2>
+                            <p class="fs-6 mb-4">La práctica fue diseñada empleando la plataforma MIT App Inventor, una herramienta intuitiva que facilita el desarrollo de aplicaciones móviles de manera simple y accesible. A través de esta plataforma, se creó una aplicación específica para controlar dispositivos conectados al Arduino mediante Bluetooth; como en este caso, el carro controlado por bluetooth.</p>
+                            <p class="fs-6 mb-4">La aplicación que hace al carrito moverse tiene un diseño simple, el título de para qué sirve esa interfáz, botones que tienen imagenes
+                                de flechas que, conforme la orientación de las flechas indica para donde se mueve el carrito. Así mismo también tiene un botón central que sirve para
+                                detener al carrito en cualquier momento. Abajo de las flechas y hay dos botones para poder mover el servomotor, que funciona como una pinza; estos botones 
+                                funcionan para poder abrir y cerrar la pinza. </p>
+                                <p class="fs-6 mb-4">Finalmente, bajo esos botones para mover las pinzas se encuentra una imagen de un gran campeón, "El rayo" Mcqueen.</p>
 
                             <p id="simulacion ">
                                 <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Codigos</h1>
                                 <p class="fs-6 mb-4"> </p>
                             
-                                <figure class="mb-4"><img class="img-fluid rounded" width="900px" src="img/codigoapp.jpeg" alt="..." /></figure>
-                                <figure class="mb-4"><img class="img-fluid rounded" width="900px" src="img/codigoapp2.jpeg" alt="..." /></figure>
+                                <figure class="mb-4"><img class="img-fluid rounded" width="900px" src="img/app inventor cel.png" alt="..." /></figure>
+                                <figure class="mb-4"><img class="img-fluid rounded" width="900px" src="img/app inventor bloques.png" alt="..." /></figure>
+                                <figure class="mb-4"><img class="img-fluid rounded" width="900px" src="img/codigo.1.png" alt="..." /></figure>
+                                <figure class="mb-4"><img class="img-fluid rounded" width="900px" src="img/codigo.2.png" alt="..." /></figure>
+                                <figure class="mb-4"><img class="img-fluid rounded" width="900px" src="img/codigo.3.png" alt="..." /></figure>
 
                             <p id="construccion">
                             <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
                             <p class="fs-6 mb-4">Utilizamos un codigo en arduino uno para poder pcontrolar el brazo robot por bluetooth.</p>
-                            <figure class="mb-4"><img class="img-fluid rounded" width="900px" src="img/codigo arduino appbluetooht.png" alt="..." /></figure>
+                            <figure class="mb-4"><img class="img-fluid rounded" width="900px" src="img/Corte dxf.jpg" alt="..." /></figure>
+                            <figure class="mb-4"><img class="img-fluid rounded" width="900px" src="img/Carro desarmado.jpg" alt="..." /></figure>
+                            <figure class="mb-4"><img class="img-fluid rounded" width="900px" src="img/Carro medio armado.jpg" alt="..." /></figure>
+                            <p class="fs-6 mb-4"></p>
+                            <figure class="mb-4" align="center"><video width="65%"  controls>
+                                <source src="video/Carro listo.mp4" type="video/mp4">
+                            </video></p></figure>
 
 
                         <p id="resultados">
